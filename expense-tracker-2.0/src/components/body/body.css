@@ -1,0 +1,64 @@
+.body{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.item{
+    margin-bottom: 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 1px gray;
+}
+.desc{
+    flex: 1;
+    margin-left: 20px;
+}
+.price{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    gap: 10;
+}
+.btndel{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    color: white;
+    border: 0;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px 0px black,
+        2px -2px 5px 0px black,
+        -2px 2px 5px 0px black,
+    -2px -2px 5px 0px black,
+    2px 0px 5px 0px black,
+    -2px 0px 5px 0px black,
+    0px 2px 5px 0px black,
+0px -2px 5px 0px black;
+}
+.btndel:hover{
+    color: brown;
+    background-color: rgb(247, 243, 243);
+    box-shadow: 2px 2px 5px 0px brown,
+    2px -2px 5px 0px brown,
+    -2px 2px 5px 0px brown,
+-2px -2px 5px 0px brown,
+2px 0px 5px 0px brown,
+-2px 0px 5px 0px brown,
+0px 2px 5px 0px brown,
+0px -2px 5px 0px brown;
+}
+
+.btndel:active{
+    box-shadow: none;
+}

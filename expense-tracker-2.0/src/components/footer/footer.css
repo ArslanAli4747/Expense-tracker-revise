@@ -1,0 +1,45 @@
+.footer{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;;
+}
+.inptcon{
+    width: 90%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    
+}
+
+.inptamount{
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.label{
+    margin-top: 10px;
+    height: 30px;
+  
+}
+.label label{
+    margin-right: 30px;
+}
+.btnsub{
+    
+    display: block;
+    height: 40px;
+    border: none;
+    background-color: rgb(31, 141, 243);
+    box-shadow: 2px 2px 5px 1px rgb(119, 103, 103);
+    
+}
+.btnsub:hover{
+    background-color: rgb(31, 125, 212);
+    
+}
+
+.btnsub:active{
+    box-shadow: none;
+}
